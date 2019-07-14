@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    tools:context="dab.scuffedbots.dab.scuffedbots.CameraActivityTextReader">
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="690dp"
+        android:clickable="true"
+        android:layout_gravity="top"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/cover"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:background="@drawable/covercolor">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/waitingscreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/objects"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/menubuttonsunselected"
+            android:onClick="objectsClicked"
+            android:text="Objects And People"
+            android:layout_weight="0.33"
+            android:textAllCaps="false"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/textreader"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:background="@drawable/menubuttonsselected"
+            android:text="Text Reader"
+            android:textAllCaps="false"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/tab2"
+            android:onClick="tab2Clicked"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textAllCaps="false"
+            android:text="Hide Menu"
+            android:textColor="#27507b"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tab"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right|end"
+            android:background="@drawable/tab"
+            android:onClick="tabClicked"
+            android:text="Show Menu"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textAllCaps="false"
+            android:textColor="#f0b63f"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cameratoggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hidecamera"
+        android:onClick="togglecameraClicked"
+        android:text="Hide Camera"
+        android:textAllCaps="false"
+        android:layout_marginBottom="64dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textColor="#f0b63f"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="381dp"
+        android:layout_height="454dp"
+        android:layout_gravity="center"
+        android:background="@drawable/showcamerasimilar"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="start"
+        android:onClick="displayClicked"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeStepGranularity="2sp"
+        android:text=""
+        android:textColor="#27507b"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="parametersClicked"
+        android:src="@mipmap/parameters" />
+</android.support.design.widget.CoordinatorLayout>

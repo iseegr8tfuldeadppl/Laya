@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Laya</string>
+    <string name="kridit">Credit</string>
+    <string name="credits_test">Credits Test</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="showcamera">أظهر الكميرا</string>
+    <string name="textreader">قارئ الكتابة</string>
+    <string name="objectsandpeople">الأشخاص و الأشياء</string>
+    <string name="hidemenu">أخفئ القائمة</string>
+    <string name="showmenu">أظهر القائمة</string>
+    <string name="hidecamera">أخفئ الكميرا</string>
+    <string name="settingstitle">الإعدادات</string>
+    <string name="changelanguage">تغيير اللغة</string>
+    <string name="changelanguagefrench">Changement De Langue</string>
+    <string name="settingstitlefrench">Paramétres</string>
+    <string name="confidencearabic">نسبة التأكد</string>
+
+    <string name="setting1">إخفاء الكميرا دوما</string>
+    <string name="setting2">إخفاء القائمة دوما</string>
+    <string name="setting3">المساعدة الصوتية</string>
+    <string name="setting4">قرائة أسماء الأشياء المكتشفة</string>
+    <string name="setting5">تعطيل الأصوات</string>
+    <string name="setting6">تخطى صفحة إختيار اللغة</string>
+    <string name="setting7">إظهار نسبة التأكد</string>
+
+    <string name="changinglanguagecancer">Français</string>
+    <string name="changinglanguagecancer2">العربية</string>
+
+    <string-array name="languages">
+        <item>Change Language</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>العربية</item>
+    </string-array>
+    <string name="title_activity_credits">Credits</string>
+
+</resources>

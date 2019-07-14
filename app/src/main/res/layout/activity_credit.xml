@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/lol1"
+    tools:context=".laya.Credit">
+
+    <ImageView
+        android:id="@+id/laya"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/lawgawlol"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tf"
+        android:layout_width="189dp"
+        android:layout_height="156dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/tf"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/scrolling"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Coding"
+            android:textSize="16sp"
+            android:textColor="#f0b63f"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/sub1"
+            android:textColor="#31649b"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nFacebook: Ali Benmascott\nInstagram: @scuffedbots"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="\n\n\n\n\nMachine Learning Model"
+            android:textSize="16sp"
+            android:textColor="#f0b63f"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/sub2"
+            android:textColor="#31649b"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nTensorflow's ssd\nobject detection API\nmore at tensorflow.org"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="\n\n\n\n\nLicense"
+            android:textSize="16sp"
+            android:textColor="#f0b63f"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/sub3"
+            android:textColor="#31649b"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nCopyright 2019\n The TensorFlow Authors.\nAll Rights Reserved.\nUnder the Apache License\nVersion 2.0"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="\n\n\n\n\nMusic And Audio"
+            android:textSize="16sp"
+            android:textColor="#f0b63f"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/sub4"
+            android:textColor="#31649b"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nBrennan Savage\n'Look at me now'\n\nObject detector audios\nowned by Google"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/title5"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="\n\n\n\n\nSkaddoodles"
+            android:textSize="16sp"
+            android:textColor="#f0b63f"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/sub5"
+            android:textColor="#31649b"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nOnly represent3nt of inelec\nyes"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tf"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/hidecamera"
+        android:lines="1"
+        android:onClick="backClicked"
+        android:text="Go Back"
+        android:textAllCaps="false"
+        android:textColor="#f0b63f"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+</RelativeLayout>

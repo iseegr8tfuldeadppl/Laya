@@ -5,4 +5,4 @@ I wanted to publish the work i've contributed, things including SQL database and
 
 Compiled app can be found on Google Play [here](https://play.google.com/store/apps/details?id=dab.scuffedbots).
 
-Credit to Tensorflow developers at [tensorflow.org](tensorflow.org) check out their repo for absolute top notch work.
+Credit to Tensorflow developers at [tensorflow.org](tensorflow.org).
